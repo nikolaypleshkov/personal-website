@@ -1,5 +1,6 @@
 import React from 'react'
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavItem, NavLinks} from './navbar-elements'
+import {FaBars} from 'react-icons/fa'
+import {Nav, NavbarContainer, NavLogo, MobileIcon, NavItem, NavLinks, NavMenu} from './navbar-elements'
 const name = 'Nikolay Pleshkov'
 const Navbar = () => {
     return (
@@ -10,7 +11,7 @@ const Navbar = () => {
                       {name}
                   </NavLogo>
                   <MobileIcon>
-                      <FaBar />
+                      <FaBars />
                   </MobileIcon>
                   <NavMenu>
                       <NavItem>
