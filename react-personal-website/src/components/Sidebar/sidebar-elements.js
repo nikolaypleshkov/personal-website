@@ -39,7 +39,7 @@ export const Icon = styled.div `
    }
  `;
 export const SidebarMenu = styled.ul `
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 80px);
   text-align: center;
