@@ -33,7 +33,7 @@ export const Icon = styled.div `
 
  export const SidebarWrapper = styled.div `
    color: #fff;
-   margin-top: 15%;
+   margin-top: 50%;
    @media screen and (max-width: 480px){
     
    }
