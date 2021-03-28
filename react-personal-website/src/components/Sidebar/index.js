@@ -8,16 +8,16 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="about" onClick={toggle}>
+                    <SidebarLink to="about" >
                         About
                     </SidebarLink>
-                    <SidebarLink to="projects" onClick={toggle}>
+                    <SidebarLink to="projects">
                         Projects
                     </SidebarLink>
-                    <SidebarLink to="skills" onClick={toggle}>
+                    <SidebarLink to="skills">
                         Skills
                     </SidebarLink>
-                    <SidebarLink to="contact" onClick={toggle}>
+                    <SidebarLink to="contact">
                         Contact
                     </SidebarLink>
                 </SidebarMenu>
