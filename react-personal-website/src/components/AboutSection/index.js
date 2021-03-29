@@ -1,9 +1,24 @@
 import React from 'react'
+import { ImgWrap, 
+    AboutContainer,
+    AboutWrapper,
+    AboutRow,
+    Column1,
+    Column2,
+    TextWrapper,
+    TopLine,
+    Heading,
+    Subtitle,
+    BtnWrap,
+    ImgWrap,
+    Img }
+    from './about-elements'
+
 
 function AboutSection() {
     return (
         <>
-        <AboutContainer id={id}>
+        <AboutContainer>
             <AboutWrapper>
                 <AboutRow>
                     <Column1>
@@ -12,10 +27,15 @@ function AboutSection() {
                          <Heading>Heading</Heading>
                          <Subtitle>Subtitle</Subtitle>
                          <BtnWrap>
-                             <Button to='home'>Button</Button>
+                             <Button to='home' />
                          </BtnWrap>
                      </TextWrapper>
                     </Column1>
+                    <Column2>
+                     <ImgWrap>
+                       <Img />
+                     </ImgWrap>
+                    </Column2>
                 </AboutRow>
             </AboutWrapper>
         </AboutContainer>
