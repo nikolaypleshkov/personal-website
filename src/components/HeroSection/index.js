@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
 import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './hero-elements'
 import VideoBG from '../../video/Pexels Videos 2814773.mp4'
-import Video from 'react-native-video'
-import styled from "styled-components/native";
+
 
 import {Button} from '../Button'
 function HeroSection() {
@@ -12,28 +11,12 @@ function HeroSection() {
         setHover(!hover)
     }
     
-    const styles = StyleSheet.create({
-        backgroundVideo: {
-            postion: absolute,
-            top: 0,
-            right: 0,
-            bottom: 0,
-            left: 0,
-            width: 100,
-            height: 100,
-            overflow: hidden
-        }
-      });
-
     return (
         <HeroContainer>
             <HeroBg>
-                <Video muted={true}
-                       style={styles.backgroundVideo}
-                       repeat={true}
-                       resizeMode={"cover"}
-                       rate={1.0}
-                       ignoreSilentSwitch={"obey"} 
+                <VideoBg muted
+                         autoPlay
+                         loop
                        src={VideoBG} type='video/mp4' />
             </HeroBg>
             <HeroContent>
