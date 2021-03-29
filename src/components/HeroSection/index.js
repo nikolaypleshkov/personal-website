@@ -12,7 +12,7 @@ function HeroSection() {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                <VideoBg autoPlay="autoplay" loop="loop" muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
                 <HeroH1>Nikolay Pleshkov | Personal website</HeroH1>
