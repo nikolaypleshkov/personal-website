@@ -34,8 +34,8 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     id: 'skills',
-    lightBg: false,
-    lightText: true,
+    lightBg: true,
+    lightText: false,
     lightTextDesc: true,
     topLine: 'TopLine title',
     headline: 'Some headling....',
@@ -44,9 +44,9 @@ export const homeObjThree = {
     imgStart: false,
     img: require('../../images/undraw_percentages_0rur.svg').default,
     alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 }
 
 export const homeObjFour = {

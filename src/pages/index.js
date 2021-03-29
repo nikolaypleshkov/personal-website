@@ -1,8 +1,10 @@
 import React, {useState} from 'react'
 import AboutSection from '../components/AboutSection'
 import { homeObjFour, homeObjOne, homeObjTwo, homeObjThree } from '../components/AboutSection/data'
+import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
+import Projects from '../components/Projects'
 import Sidebar from '../components/Sidebar'
 
 
@@ -20,9 +22,10 @@ const Home = () => {
            <Navbar toggle={toggle} /> 
            <HeroSection /> 
            <AboutSection {...homeObjOne} />
-           <AboutSection {...homeObjTwo} />
            <AboutSection {...homeObjThree} />
+            <Projects />
            <AboutSection {...homeObjFour} />
+           <Footer />
         </>
     )
 }
