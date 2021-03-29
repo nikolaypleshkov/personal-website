@@ -5,7 +5,7 @@ export const ProjectsContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #1c2331;
+  background: #0f1014;
 
   @media screen and (max-width: 768px){
       height: 1100px;
