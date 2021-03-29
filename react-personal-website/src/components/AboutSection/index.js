@@ -1,4 +1,5 @@
 import React from 'react'
+import {Button} from '../Button'
 import { ImgWrap, 
     AboutContainer,
     AboutWrapper,
@@ -10,7 +11,6 @@ import { ImgWrap,
     Heading,
     Subtitle,
     BtnWrap,
-    ImgWrap,
     Img }
     from './about-elements'
 
