@@ -15,7 +15,7 @@ import { ImgWrap,
     from './about-elements'
 
 
-function AboutSection({id,lightBg,lightText,imgStart,topLine,headline,darkText,description,buttonLabel,img, primary,dark,dark2}) {
+function AboutSection({id,lightBg,lightText,imgStart,topLine,headline,darkText,description,buttonLabel,img,alt,primary,dark,dark2}) {
     return (
         <>
         <AboutContainer lightBg={lightBg} id={id}>
@@ -33,7 +33,7 @@ function AboutSection({id,lightBg,lightText,imgStart,topLine,headline,darkText,d
                     </Column1>
                     <Column2>
                      <ImgWrap>
-                       <Img src={img} />
+                       <Img src={img} alt={alt} />
                      </ImgWrap>
                     </Column2>
                 </AboutRow>

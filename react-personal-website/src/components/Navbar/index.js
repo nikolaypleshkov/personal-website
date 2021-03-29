@@ -2,6 +2,7 @@ import React from 'react'
 import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavItem, NavLinks, NavMenu} from './navbar-elements'
 const name = 'Nikolay Pleshkov'
+
 const Navbar = ({ toggle }) => {
     return (
         <>

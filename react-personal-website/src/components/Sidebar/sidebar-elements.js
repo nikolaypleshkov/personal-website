@@ -14,7 +14,7 @@ export const SidebarContainer = styled.aside `
   left: 0;
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-  top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+  top: ${({ isOpen }) => (isOpen ? '0' : '100%')};
 `;
 
 export const CloseIcon = styled(FaTimes) `
@@ -61,7 +61,7 @@ export const SidebarMenu = styled.ul `
    cursor: pointer;
 
    &:hover {
-       color :#01bf71;
+       color :#F50057;
        transition: 0.2s ease-in-out;
    }
  `;
