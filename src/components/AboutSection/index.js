@@ -15,7 +15,7 @@ import { ImgWrap,
     from './about-elements'
 
 
-function AboutSection({id,lightBg,lightText,imgStart,topLine,headline,darkText,description,buttonLabel,img,alt,primary,dark,dark2}) {
+function AboutSection({id,lightBg,lightText,imgStart,topLine,headline,darkText,description,buttonLabel,img,alt,primary,dark,dark2,description2}) {
     return (
         <>
         <AboutContainer lightBg={lightBg} id={id}>
@@ -26,6 +26,7 @@ function AboutSection({id,lightBg,lightText,imgStart,topLine,headline,darkText,d
                          <TopLine>{topLine}</TopLine>
                          <Heading lightText={lightText}>{headline}</Heading>
                          <Subtitle darkText={darkText}>{description}</Subtitle>
+                         <Subtitle darkText={darkText}>{description2}</Subtitle>
                          <BtnWrap>
                              <Button to='home' smooth={true} duration={500} spy={true} exacr="true" offset={-80} primary={primary ? 1 : 0} dark={dark ? 1 : 0} dark2={dark2 ? 1 : 0}>{buttonLabel}</Button>
                          </BtnWrap>
