@@ -15,10 +15,10 @@ function Footer() {
                     <FooterLinksWrapper>
                          <FooterLinksItems>
                              <FooterLinkTitle>Nikolay Pleshkov</FooterLinkTitle>
-                                 <FooterLink to="/about">About Me</FooterLink>
-                                 <FooterLink to="/skills">Skills</FooterLink>
-                                 <FooterLink to="/projects">My Projects</FooterLink>
-                                 <FooterLink to="/contact">Contact</FooterLink>
+                                 <FooterLink to="about">About Me</FooterLink>
+                                 <FooterLink to="skills">Skills</FooterLink>
+                                 <FooterLink to="projects">My Projects</FooterLink>
+                                 <FooterLink to="contact">Contact</FooterLink>
                          </FooterLinksItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
