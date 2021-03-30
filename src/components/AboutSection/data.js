@@ -46,7 +46,7 @@ export const homeObjThree = {
     topLine: 'TopLine title',
     headline: 'Some headling....',
     description: 'description....',
-    buttonLabel: 'Contact',
+    buttonLabel: 'Projects',
     imgStart: false,
     img: require('../../images/undraw_percentages_0rur.svg').default,
     alt: 'Car',
