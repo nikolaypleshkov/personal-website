@@ -12,10 +12,10 @@ export const homeObjOne = {
     hobby2: '- Playing guitar',
     hobby3: '- Reading',
     hobby4: '- Gaming',
-    buttonLabel: 'Contact',
+    buttonLabel: 'Skills',
     imgStart: false,
     img: require('../../images/undraw_portfolio_website_lidw.svg').default,
-    alt: 'Car',
+    alt: 'aboutme',
     dark: true,
     primary: true,
     darkText: false
