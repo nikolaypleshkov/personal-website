@@ -19,7 +19,7 @@ function Projects() {
                     <ProjectsIcon src={Icon1} />
                     <ProjectsH2>Reservation System Web</ProjectsH2>
                     <ProjectsP>Reservation System writed with Java using Servlet framework and MySQL database.
-                               You can register and login to the system. You can search flights and book if thicket is avalible.</ProjectsP>    
+                               You can register and login to the system. You can search flights and book if thicket is available.</ProjectsP>    
                 </ProjectsCard>    
                 <ProjectsCard> 
                     <ProjectsIcon src={Icon2} />
