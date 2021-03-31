@@ -1,7 +1,7 @@
 import React from 'react'
-import Icon1 from '../../images/svg-1.svg'
+import Icon1 from '../../images/undraw_connected_world_wuay.svg'
 import Icon2 from '../../images/undraw_video_game_night_8h8m.svg'
-import Icon3 from '../../images/undraw_portfolio_website_lidw.svg'
+import Icon3 from '../../images/undraw_skateboard_d6or.svg'
 import {ProjectsContainer,
         ProjectsCard,
         ProjectsH1, 
