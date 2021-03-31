@@ -23,13 +23,17 @@ function Projects() {
                 </ProjectsCard>    
                 <ProjectsCard> 
                     <ProjectsIcon src={Icon2} />
-                    <ProjectsH2>Project Title 2</ProjectsH2>
-                    <ProjectsP>Project description...</ProjectsP>    
+                    <ProjectsH2>Retro FPS Game</ProjectsH2>
+                    <ProjectsP>Retro fps (first-person-shooter) game created using Unity Engine.
+                               The scripts for the game are wirted on C#. The game desing,graphics and animation are
+                               created with Unity.</ProjectsP>    
                 </ProjectsCard>  
                 <ProjectsCard> 
                     <ProjectsIcon src={Icon3} />
-                    <ProjectsH2>Project Title 3</ProjectsH2>
-                    <ProjectsP>Project description...</ProjectsP>    
+                    <ProjectsH2>Online Skate Shop</ProjectsH2>
+                    <ProjectsP>Online skate shop design with HTLM5+CSS+JavaScript.You can search for products 
+                               and view available items on seperated separated. This project was created for my 
+                               Web Design class.</ProjectsP>    
                 </ProjectsCard>  
             </ProjectsWrapper>    
         </ProjectsContainer>
