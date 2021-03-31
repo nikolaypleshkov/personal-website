@@ -5,8 +5,8 @@ import {FooterContainer,
         FooterLinksContainer,
         FooterLinksWrapper,
         FooterLinksItems,
-        FooterLinkTitle,
-        FooterLink} from './footer-elements'
+        SocialIconLink,
+        SocialIcons} from './footer-elements'
 
 function Footer() {
     return (
@@ -15,30 +15,7 @@ function Footer() {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                          <FooterLinksItems>
-                             <FooterLinkTitle>Nikolay Pleshkov</FooterLinkTitle>
-                                 <FooterLink to="about">About Me</FooterLink>
-                                 <FooterLink to="skills">Skills</FooterLink>
-                                 <FooterLink to="projects">My Projects</FooterLink>
-                                 <FooterLink to="contact">Contact</FooterLink>
-                         </FooterLinksItems>
-                    </FooterLinksWrapper>
-                    <FooterLinksWrapper>
-                         <FooterLinksItems>
-                             <FooterLinkTitle>Social Media</FooterLinkTitle>
-                                 <FooterLink to="/about">Facebook</FooterLink>
-                                 <FooterLink to="/skills">Instagram</FooterLink>
-                                 <FooterLink to="/projects">Github</FooterLink>
-                                 <FooterLink to="/contact">Discord</FooterLink>
-                         </FooterLinksItems>
-                    </FooterLinksWrapper>
-                </FooterLinksContainer>
-                <SocialMedia>
-                    <SocialMediaWrap>
-                        <SocialMediaLogo to='/'>
-                            Nikolay
-                        </SocialMediaLogo>
-                        <WebsiteRights>nikolaypleshkov © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
-                        <SocialIcons>
+                         <SocialIcons>
                             <SocialIconLink href='/' targer="_blank" aria-label="Facebook">
                                 <FaFacebook />
                                 </SocialIconLink>
@@ -56,8 +33,9 @@ function Footer() {
                             </SocialIconLink>
 
                         </SocialIcons>
-                    </SocialMediaWrap>
-                </SocialMedia>
+                         </FooterLinksItems>
+                    </FooterLinksWrapper>
+                </FooterLinksContainer>
             </FooterWrap>
         </FooterContainer>
     ) 

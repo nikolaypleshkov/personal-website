@@ -86,7 +86,6 @@ export const SocialMediaWrap = styled.div`
 
 export const SocialMediaLogo = styled(Link)`
   color: #fff;
-  justify-content: start;
   cursor: pointer;
   text-decoration: none;
   font-size: 1.5rem;
@@ -111,4 +110,6 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+  font-size: 2rem;
+  margin-left: 20%;
 `
