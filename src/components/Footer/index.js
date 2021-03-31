@@ -16,19 +16,19 @@ function Footer() {
                     <FooterLinksWrapper>
                          <FooterLinksItems>
                          <SocialIcons>
-                            <SocialIconLink href='/' targer="_blank" aria-label="Facebook">
+                            <SocialIconLink href='https://www.facebook.com/nikkypleshkov/' target="_blank" aria-label="Facebook">
                                 <FaFacebook />
                                 </SocialIconLink>
                            
-                            <SocialIconLink href='/' targer="_blank" aria-label="Facebook">
+                            <SocialIconLink href='https://www.instagram.com/n1.pleshkov/' target="_blank" aria-label="Facebook">
                                 <FaInstagram />
                             </SocialIconLink>
 
-                            <SocialIconLink href='/' targer="_blank" aria-label="Facebook">
+                            <SocialIconLink href='https://github.com/nikolaypleshkov' target="_blank" aria-label="Facebook">
                                 <FaGithub />
                             </SocialIconLink>
                             
-                            <SocialIconLink href='/' targer="_blank" aria-label="Facebook">
+                            <SocialIconLink href='https://www.reddit.com/r/PewdiepieSubmissions/' target="_blank" aria-label="Facebook">
                                 <FaReddit />
                             </SocialIconLink>
 
