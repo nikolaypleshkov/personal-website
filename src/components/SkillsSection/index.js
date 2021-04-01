@@ -5,23 +5,26 @@ import {Column1,
         Heading,
         Subtitle} from '../AboutSection/about-elements'
 import {SkillsContainer, SkillsWrapper} from './skills-elements'
-function SkillsSection() {
+function SkillsSection(id,lightBg,lightText,imgStart,topLine,heading1,description1,description2,description3,heading2,description4,description5,description6) {
     return (
-        <SkillsContainer>
+        <SkillsContainer lightBg = {lightBg} id = {id}>
             <SkillsWrapper>
-                <Column1>
+                <SkillsRow imgStart = {imgStart}>
+                    <Column1>
                   <TextWrapper>
-                      <TopLine>Skills</TopLine>
-                      <Heading>Programing Languages</Heading>
-                      <Subtitle> - Language 1</Subtitle>
-                      <Subtitle> - Language 2</Subtitle>
-                      <Subtitle> - Language 3</Subtitle>
-                      <Heading>Web development</Heading>
-                      <Subtitle> HTLM/CSS</Subtitle>
-                      <Subtitle>JavaScript (React + Next.js)</Subtitle>
-                      <Subtitle>Bootstrap, Foundation, MDBoostrap</Subtitle>
+                      <TopLine>{topLine}</TopLine>
+                      <Heading>{heading1}</Heading>
+                      <Subtitle>{description1}</Subtitle>
+                      <Subtitle>{description2}</Subtitle>
+                      <Subtitle>{description3}</Subtitle>
+                      <Heading>{heading2}</Heading>
+                      <Subtitle> {description4}</Subtitle>
+                      <Subtitle>{description5}</Subtitle>
+                      <Subtitle>{description6}</Subtitle>
                   </TextWrapper>
                 </Column1>
+                </SkillsRow>
+                
             </SkillsWrapper>
         </SkillsContainer>
     )
