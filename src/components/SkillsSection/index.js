@@ -4,7 +4,8 @@ import {Column1,
         TopLine, 
         Heading,
         Subtitle} from '../AboutSection/about-elements'
-import {SkillsContainer, SkillsWrapper} from './skills-elements'
+
+import {SkillsRow,SkillsContainer, SkillsWrapper} from './skills-elements'
 function SkillsSection(id,lightBg,lightText,imgStart,topLine,heading1,description1,description2,description3,heading2,description4,description5,description6) {
     return (
         <SkillsContainer lightBg = {lightBg} id = {id}>
