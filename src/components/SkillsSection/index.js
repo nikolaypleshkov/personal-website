@@ -24,8 +24,7 @@ function SkillsSection(id,lightBg,lightText,darkText,imgStart,topLine,heading1,d
                       <Subtitle darkText = {darkText}>{description6}</Subtitle>
                   </TextWrapper>
                 </Column1>
-                </SkillsRow>
-                
+                </SkillsRow>   
             </SkillsWrapper>
         </SkillsContainer>
     )
