@@ -29,7 +29,7 @@ function HeroSection() {
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="contact" onMouseEnter={onHover} 
-                                         onMouseLeave={onHover}>
+                                         onMouseLeave={onHover} smooth={true} duration={500} spy={true} exacr="true" offset={-80}>
                         Contact me {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
