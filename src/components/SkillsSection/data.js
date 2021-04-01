@@ -1,5 +1,5 @@
 export const skillsSection = {
-    id: 'about',
+    id: 'skills',
     lightBg: true,
     lightText: false,
     lightTextDesc: true,
