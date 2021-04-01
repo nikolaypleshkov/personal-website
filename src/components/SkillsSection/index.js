@@ -6,7 +6,7 @@ import {Column1,
         Subtitle} from '../AboutSection/about-elements'
 
 import {SkillsRow,SkillsContainer, SkillsWrapper} from './skills-elements'
-function SkillsSection(id,lightBg,lightText,darkText,imgStart,topLine,heading1,description1,description2,description3,heading2,description4,description5,description6) {
+function SkillsSection({id,lightBg,lightText,darkText,imgStart,topLine,heading1,description1,description2,description3,heading2,description4,description5,description6}) {
     return (
         <SkillsContainer lightBg = {lightBg} id = {id}>
             <SkillsWrapper>
