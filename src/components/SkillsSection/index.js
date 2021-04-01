@@ -1,6 +1,6 @@
 import React from 'react'
 
-function IndexSection() {
+function SkillsSection() {
     return (
         <SkillsContainer>
             <SkillsWrapper>
@@ -22,4 +22,4 @@ function IndexSection() {
     )
 }
 
-export default IndexSection
+export default SkillsSection
