@@ -14,7 +14,7 @@ function Footer() {
             <FooterWrap>
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
-                         <FooterLinksItems>
+                        <FooterLinksItems>
                          <SocialIcons>
                             <SocialIconLink href='https://www.facebook.com/nikkypleshkov/' target="_blank" aria-label="Facebook">
                                 <FaFacebook />
@@ -33,7 +33,7 @@ function Footer() {
                             </SocialIconLink>
 
                         </SocialIcons>
-                         </FooterLinksItems>
+                     </FooterLinksItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
             </FooterWrap>
