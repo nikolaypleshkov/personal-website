@@ -6,7 +6,7 @@ import {Column1,
         Subtitle} from '../AboutSection/about-elements'
 
 import {SkillsRow,SkillsContainer, SkillsWrapper} from './skills-elements'
-function SkillsSection(id,lightBg,lightText,imgStart,topLine,heading1,description1,description2,description3,heading2,description4,description5,description6) {
+function SkillsSection(id,lightBg,lightText,darkText,imgStart,topLine,heading1,description1,description2,description3,heading2,description4,description5,description6) {
     return (
         <SkillsContainer lightBg = {lightBg} id = {id}>
             <SkillsWrapper>
@@ -14,14 +14,14 @@ function SkillsSection(id,lightBg,lightText,imgStart,topLine,heading1,descriptio
                     <Column1>
                   <TextWrapper>
                       <TopLine>{topLine}</TopLine>
-                      <Heading>{heading1}</Heading>
-                      <Subtitle>{description1}</Subtitle>
-                      <Subtitle>{description2}</Subtitle>
-                      <Subtitle>{description3}</Subtitle>
-                      <Heading>{heading2}</Heading>
-                      <Subtitle> {description4}</Subtitle>
-                      <Subtitle>{description5}</Subtitle>
-                      <Subtitle>{description6}</Subtitle>
+                      <Heading lightText = {lightText}>{heading1}</Heading>
+                      <Subtitle darkText = {darkText}>{description1}</Subtitle>
+                      <Subtitle darkText = {darkText}>{description2}</Subtitle>
+                      <Subtitle darkText = {darkText}>{description3}</Subtitle>
+                      <Heading lightText = {lightText}>{heading2}</Heading>
+                      <Subtitle darkText = {darkText}> {description4}</Subtitle>
+                      <Subtitle darkText = {darkText}>{description5}</Subtitle>
+                      <Subtitle darkText = {darkText}>{description6}</Subtitle>
                   </TextWrapper>
                 </Column1>
                 </SkillsRow>
