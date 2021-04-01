@@ -8,7 +8,7 @@ export const skillsSection = {
     description1: 'Java',
     description2: 'C#',
     description3: 'C++',
-    headline2: 'Programing Languages',
+    headline2: 'Web Development',
     description4: 'HTML+CSS',
     description5: 'JavaScript (React + Next.js)',
     description6: 'Bootstrap, Foundation, MDBootstrap',
