@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
 import Projects from '../components/Projects'
+import Skills from '../components/SkillsSection'
 import Sidebar from '../components/Sidebar'
 
 
@@ -22,7 +23,7 @@ const Home = () => {
            <Navbar toggle={toggle} /> 
            <HeroSection /> 
            <AboutSection {...homeObjOne} />
-           <AboutSection {...homeObjThree} />
+           <Skills />
             <Projects />
            <AboutSection {...homeObjFour} />
            <Footer />
