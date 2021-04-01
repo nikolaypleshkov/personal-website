@@ -3,10 +3,15 @@ import {Column1,
         TextWrapper, 
         TopLine, 
         Heading,
-        Subtitle} from '../AboutSection/about-elements'
+        Subtitle,
+        Column2,
+        ImgWrap,
+        Img,
+        BtnWrap} from '../AboutSection/about-elements'
 
 import {SkillsRow,SkillsContainer, SkillsWrapper} from './skills-elements'
-function SkillsSection({id,lightBg,lightText,darkText,imgStart,topLine,heading1,description1,description2,description3,heading2,description4,description5,description6}) {
+import {Button} from '../Button'
+function SkillsSection({id,lightBg,lightText,darkText,imgStart,topLine,heading1,description1,description2,description3,heading2,description4,description5,description6,primary,dark,dark2,buttonLabel,img,alt}) {
     return (
         <SkillsContainer lightBg = {lightBg} id = {id}>
             <SkillsWrapper>
@@ -22,8 +27,16 @@ function SkillsSection({id,lightBg,lightText,darkText,imgStart,topLine,heading1,
                       <Subtitle darkText = {darkText}> {description4}</Subtitle>
                       <Subtitle darkText = {darkText}>{description5}</Subtitle>
                       <Subtitle darkText = {darkText}>{description6}</Subtitle>
+                      <BtnWrap>
+                             <Button to='projects' smooth={true} duration={500} spy={true} exacr="true" offset={-80} primary={primary ? 1 : 0} dark={dark ? 1 : 0} dark2={dark2 ? 1 : 0}>{buttonLabel}</Button>
+                         </BtnWrap>
                   </TextWrapper>
                 </Column1>
+                <Column2>
+                     <ImgWrap>
+                       <Img src={img} alt={alt} />
+                     </ImgWrap>
+                    </Column2>
                 </SkillsRow>   
             </SkillsWrapper>
         </SkillsContainer>
