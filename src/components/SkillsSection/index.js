@@ -1,5 +1,10 @@
 import React from 'react'
-
+import {Column1,
+        TextWrapper, 
+        TopLine, 
+        Heading,
+        Subtitle} from '../AboutSection/about-elements'
+import {SkillsContainer, SkillsWrapper} from './skills-elements'
 function SkillsSection() {
     return (
         <SkillsContainer>
