@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import AboutSection from '../components/AboutSection'
-import { homeObjFour, aboutSection, homeObjTwo, homeObjThree } from '../components/AboutSection/data'
+import { homeObjFour, aboutSection } from '../components/AboutSection/data'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
