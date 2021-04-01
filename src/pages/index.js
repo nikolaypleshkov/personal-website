@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import AboutSection from '../components/AboutSection'
 import { homeObjFour, aboutSection } from '../components/AboutSection/data'
+import {skillsSection} from '../components/SkillsSection/data'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
@@ -23,7 +24,7 @@ const Home = () => {
            <Navbar toggle={toggle} /> 
            <HeroSection /> 
            <AboutSection {...aboutSection} />
-           <Skills />
+           <Skills {...skillsSection} />
             <Projects />
            <AboutSection {...homeObjFour} />
            <Footer />
