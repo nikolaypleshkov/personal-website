@@ -28,7 +28,7 @@ function Projects() {
                                The scripts for the game are wirted on C#. The game desing,graphics and animation are
                                created with Unity.</ProjectsP>    
                 </ProjectsCard>  
-                <ProjectsCard> 
+                <ProjectsCard href='https://github.com/nikolaypleshkov/Course-Work' target='_blank'> 
                     <ProjectsIcon src={Icon3} />
                     <ProjectsH2>Online Skate Shop</ProjectsH2>
                     <ProjectsP>Online skate shop design with HTLM5+CSS+JavaScript.You can search for products 
