@@ -35,7 +35,7 @@ export const ProjectsWrapper = styled.div`
   }
 `
 
-export const ProjectsCard = styled.div`
+export const ProjectsCard = styled.a`
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -46,6 +46,8 @@ export const ProjectsCard = styled.div`
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color:#000;
 
   &:hover{
       transform: scale(1.02);
@@ -75,7 +77,7 @@ export const ProjectsH2 = styled.h2`
   margin-bottom: 10px;
 `
 
-export const ProjectsP = styled.p`b
+export const ProjectsP = styled.p`
   font-size: 1rem;
   text-align: center;
 `
