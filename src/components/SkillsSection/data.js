@@ -12,7 +12,7 @@ export const skillsSection = {
     description4: '• HTML+CSS',
     description5: '• JavaScript (React + Next.js)',
     description6: '• Bootstrap, Foundation, MDBootstrap',
-    heading3: 'Data Base',
+    heading3: 'Database',
     description7: '• MySQL',
     description8: '• PostgreSQL',
     buttonLabel: 'Projects',
