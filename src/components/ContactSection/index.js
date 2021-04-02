@@ -1,11 +1,11 @@
 import React from 'react'
-import { Column1, Column2, Img, ImgWrap, TextWrapper, TopLine,BtnWrap} from '../AboutSection/about-elements'
-import {ContactContainer, ContactWrapper, ContactRow} from './contact-elements'
-import {Button} from '../Button'
 import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import InputGroup from 'react-bootstrap/InputGroup'
+import {Button} from '../Button'
+import { Column1, Column2, Img, ImgWrap, TextWrapper, TopLine,BtnWrap} from '../AboutSection/about-elements'
+import {ContactContainer, ContactWrapper, ContactRow} from './contact-elements'
 function Contact({id,lightBg,imgStart,topLine,img,alt,primary,dark,dark2,buttonLabel}) {
     return (
         <ContactContainer lightBg={lightBg} id={id}>
