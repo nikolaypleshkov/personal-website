@@ -1,11 +1,12 @@
 import React from 'react'
-import { Column1, Column2, Img, ImgWrap, TextWrapper, TopLine } from '../AboutSection/about-elements'
+import { Column1, Column2, Img, ImgWrap, TextWrapper, TopLine,BtnWrap} from '../AboutSection/about-elements'
 import {ContactContainer, ContactWrapper, ContactRow} from './contact-elements'
+import {Button} from '../Button'
 import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import InputGroup from 'react-bootstrap/InputGroup'
-function Contact({id,lightBg,imgStart,topLine,img,alt,}) {
+function Contact({id,lightBg,imgStart,topLine,img,alt,primary,dark,dark2,buttonLabel}) {
     return (
         <ContactContainer lightBg={lightBg} id={id}>
             <ContactWrapper>
@@ -43,7 +44,9 @@ function Contact({id,lightBg,imgStart,topLine,img,alt,}) {
                          
 
                           </Form>   
-
+                          <BtnWrap>
+                             <Button to='skills' smooth={true} duration={500} spy={true} exacr="true" offset={-80} primary={primary ? 1 : 0} dark={dark ? 1 : 0} dark2={dark2 ? 1 : 0}>{buttonLabel}</Button>
+                         </BtnWrap>
                       </TextWrapper>
                     </Column1>
                     <Column2>
