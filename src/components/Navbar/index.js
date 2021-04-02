@@ -1,6 +1,5 @@
 import React, {useState,useEffect} from 'react'
 import {FaBars} from 'react-icons/fa'
-import { animateScroll } from 'react-scroll'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavItem, NavLinks, NavMenu} from './navbar-elements'
 import {animateScroll as scroll} from 'react-scroll'
 
