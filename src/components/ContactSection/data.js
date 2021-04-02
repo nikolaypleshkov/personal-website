@@ -1,5 +1,5 @@
 
-export const contactContainer = {
+export const contactSection = {
     id: 'contact',
     lightBg: true,
     lightText: false,
