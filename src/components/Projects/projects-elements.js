@@ -35,7 +35,7 @@ export const ProjectsWrapper = styled.div`
   }
 `
 
-export const ProjectsCard = styled.a`
+export const ProjectsCard = styled.div`
   background: #fff;
   display: flex;
   flex-direction: column;
