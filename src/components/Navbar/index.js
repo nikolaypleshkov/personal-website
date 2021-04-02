@@ -3,6 +3,7 @@ import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavItem, NavLinks, NavMenu} from './navbar-elements'
 import {animateScroll as scroll} from 'react-scroll'
 
+
 const name = 'Nikolay Pleshkov'
 
 const Navbar = ({ toggle }) => {
@@ -26,7 +27,8 @@ const Navbar = ({ toggle }) => {
         scroll.scrollToTop();
     }
 
-    return (
+   
+         return (
         <>
           <Nav scrollNav={scrollNav}>
               <NavbarContainer>
@@ -53,7 +55,7 @@ const Navbar = ({ toggle }) => {
               </NavbarContainer>
           </Nav>
         </>
-    );
-};
+     );
+}
 
 export default Navbar;
