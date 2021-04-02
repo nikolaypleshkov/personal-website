@@ -33,13 +33,14 @@ function Contact({id,lightBg,imgStart,topLine,img,alt,}) {
                           <option>Other</option>
                           </Form.Control>
                           </Form.Group>
-
+                          <br />
+                          <br />
+                          <Form.Group>
                           <InputGroup>
-                          <InputGroup.Prepend>
-                          <InputGroup.Text>With textarea</InputGroup.Text>
-                          </InputGroup.Prepend>
-                          <FormControl as="textarea" aria-label="With textarea" />
+                          <FormControl as="textarea" placeholder="Your message" />
                           </InputGroup>
+                          </Form.Group>
+                         
 
                           </Form>   
 
