@@ -9,7 +9,7 @@ import Projects from '../components/Projects'
 import Skills from '../components/SkillsSection'
 import Sidebar from '../components/Sidebar'
 import Contact from '../components/ContactSection'
-
+import {contactSection} from '../components/ContactSection/data'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -27,7 +27,7 @@ const Home = () => {
            <AboutSection {...aboutSection} />
            <Skills {...skillsSection} />
             <Projects />
-           <Contact />
+           <Contact {...contactSection} />
            <Footer />
         </>
     )
