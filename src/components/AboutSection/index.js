@@ -13,9 +13,9 @@ import { ImgWrap,
     BtnWrap,
     Img }
     from './about-elements'
-
-
 function AboutSection({id,lightBg,lightText,imgStart,topLine,headline,darkText,description,buttonLabel,img,alt,primary,dark,dark2,description2,headline2,hobby1,hobby2,hobby3,hobby4}) {
+   
+   
     return (
         <>
         <AboutContainer lightBg={lightBg} id={id}>
@@ -23,7 +23,7 @@ function AboutSection({id,lightBg,lightText,imgStart,topLine,headline,darkText,d
                 <AboutRow imgStart={imgStart}>
                     <Column1>
                      <TextWrapper>
-                         <TopLine>{topLine}</TopLine>
+                         <TopLine >{topLine}</TopLine>
                          <Heading lightText={lightText}>{headline}</Heading>
                          <Subtitle darkText={darkText}>{description}</Subtitle>
                          <Subtitle darkText={darkText}>{description2}</Subtitle>

@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
 import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './hero-elements'
 import VideoBG from '../../video/Pexels Videos 2814773.mp4'
-
-
+import { motion } from 'framer-motion'
 import {Button} from '../Button'
 function HeroSection() {
     const [hover, setHover] = useState(false)
@@ -20,7 +19,21 @@ function HeroSection() {
                        src={VideoBG} type='video/mp4' />
             </HeroBg>
             <HeroContent>
+            <motion.div initial="hidden" animate="visible" variants={{
+          hidden: {
+            scale: .4,
+            opacity: 0
+          },
+          visible: {
+            scale: 1,
+            opacity: 1,
+            transition: {
+              delay: .2
+            }
+          },
+        }}>
                 <HeroH1>Nikolay Pleshkov | Personal website</HeroH1>
+                </motion.div>
                 <HeroP>
                 Passionate college student towards B.SE 
                 at the Plovdiv University “Paisii 
