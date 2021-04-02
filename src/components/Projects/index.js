@@ -21,7 +21,7 @@ function Projects() {
                     <ProjectsP>Reservation System writed on Java using Servlet framework and MySQL database.
                                You can register and login to the system. You can search flights and book if thicket is available.</ProjectsP>    
                 </ProjectsCard>    
-                <ProjectsCard> 
+                <ProjectsCard href='https://github.com/nikolaypleshkov/Retro-game' target='_blank'> 
                     <ProjectsIcon src={Icon2} />
                     <ProjectsH2>Retro FPS Game</ProjectsH2>
                     <ProjectsP>Retro fps (first-person-shooter) game created using Unity Engine.
