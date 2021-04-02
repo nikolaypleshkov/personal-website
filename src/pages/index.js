@@ -8,6 +8,7 @@ import Navbar from '../components/Navbar'
 import Projects from '../components/Projects'
 import Skills from '../components/SkillsSection'
 import Sidebar from '../components/Sidebar'
+import Contact from '../components/ContactSection'
 
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
            <AboutSection {...aboutSection} />
            <Skills {...skillsSection} />
             <Projects />
-           <AboutSection {...homeObjFour} />
+           <Contact />
            <Footer />
         </>
     )
