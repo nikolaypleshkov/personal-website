@@ -9,7 +9,8 @@ import {ProjectsContainer,
         ProjectsIcon, 
         ProjectsP, 
         ProjectsWrapper} from './projects-elements'
-
+import {BtnWrap} from '../AboutSection/about-elements'
+import {Button} from '../Button'
 function Projects() {
     return (
         <ProjectsContainer id="projects">
@@ -34,7 +35,10 @@ function Projects() {
                     <ProjectsP>Online skate shop design with HTLM5+CSS+JavaScript.You can search for products 
                                and view available items on seperated separated. This project was created for my 
                                Web Design class.</ProjectsP>    
-                </ProjectsCard>  
+                </ProjectsCard> 
+                <BtnWrap>
+                    <Button to='contact' smooth={true} duration={500} spy={true} exacr="true" offset={-80} >Projects</Button>
+                </BtnWrap> 
             </ProjectsWrapper>    
         </ProjectsContainer>
     )
