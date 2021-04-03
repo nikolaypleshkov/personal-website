@@ -11,6 +11,7 @@ import Sidebar from '../components/Sidebar'
 import Contact from '../components/ContactSection'
 import {contactSection} from '../components/ContactSection/data'
 import { motion } from 'framer-motion';
+
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
 
@@ -27,7 +28,7 @@ const Home = () => {
         },
         pageAnimate: {
             opacity: 1,
-            delay: 2.5
+            delay: .5
         },
     }} >
            <Sidebar isOpen = {isOpen} toggle={toggle} />
