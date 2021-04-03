@@ -38,7 +38,7 @@ function Projects({primary,dark,dark2}) {
                                Web Design class.</ProjectsP>    
                 </ProjectsCard> 
                 <BtnWrap>
-                    <Button to='contact' smooth={true} duration={500} spy={true} exacr="true" offset={-80} primary={primary ? 1 : 0} dark={dark ? 1 : 0} dark2={dark2 ? 1 : 0}>Projects</Button>
+                    <Button to='contact' smooth={true} duration={500} spy={true} exacr="true" offset={-80} primary={primary ? 0 : 1} dark={dark ? 0 : 1} dark2={dark2 ? 0 : 1}>Projects</Button>
                 </BtnWrap> 
             </ProjectsWrapper>    
         </ProjectsContainer>
