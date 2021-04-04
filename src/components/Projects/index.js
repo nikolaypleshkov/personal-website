@@ -33,7 +33,7 @@ function Projects({primary,dark,dark2}) {
                 <ProjectsCard href='https://github.com/nikolaypleshkov/Course-Work' target='_blank'> 
                     <ProjectsIcon src={Icon3} />
                     <ProjectsH2>Online Skate Shop</ProjectsH2>
-                    <ProjectsP>Online skate shop design with HTLM5+CSS+JavaScript.You can search for products 
+                    <ProjectsP>Online skate shop build using HTLM5+CSS+JavaScript.You can search for products 
                                and view available items on seperated separated. This project was created for my 
                                Web Design class.</ProjectsP>    
                 </ProjectsCard> 
