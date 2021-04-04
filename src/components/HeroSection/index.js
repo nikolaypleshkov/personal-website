@@ -37,8 +37,7 @@ function HeroSection() {
                 <HeroP>
                 Passionate college student towards B.SE 
                 at the Plovdiv University “Paisii 
-                Hilendarski”. Aiming to build success 
-                career in the IT world.
+                Hilendarski”.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="contact" onMouseEnter={onHover} 
