@@ -9,7 +9,7 @@ export const skillsSection = {
     description2: '• C#',
     description3: '• C++',
     heading2: 'Web / Front-end Development',
-    description4: '• HTML+CSS',
+    description4: '• HTML + CSS',
     description5: '• JavaScript (React + Next.js)',
     description6: '• Bootstrap, Foundation, MDBootstrap',
     heading3: 'Database',
