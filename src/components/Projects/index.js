@@ -13,7 +13,8 @@ import {BtnWrap} from '../AboutSection/about-elements'
 import {Button} from '../Button'
 
 function Projects({primary,dark,dark2}) {
-    return (
+   return (
+        
         <ProjectsContainer id="projects">
             <ProjectsH1>My Projects</ProjectsH1>
             <ProjectsWrapper>
@@ -42,7 +43,9 @@ function Projects({primary,dark,dark2}) {
                 </BtnWrap> 
             </ProjectsWrapper>    
         </ProjectsContainer>
+        
     )
+
 }
 
 export default Projects
