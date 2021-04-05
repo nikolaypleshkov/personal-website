@@ -16,6 +16,7 @@ function Footer() {
                     <FooterLinksWrapper>
                         <FooterLinksItems>
                          <SocialIcons>
+                             
                             <SocialIconLink href='https://www.facebook.com/nikkypleshkov/' target="_blank" aria-label="Facebook">
                                 <FaFacebook />
                                 </SocialIconLink>
