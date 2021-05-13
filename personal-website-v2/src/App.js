@@ -1,9 +1,13 @@
 
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './pages';
+
 function App() {
   return (
-    <h2>Personal website</h2>
+    <BrowserRouter>
+    <Home />
+   </BrowserRouter>
   );
 }
 
